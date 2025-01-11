@@ -171,3 +171,53 @@ body {
 .vision-btn:hover {
   opacity: 0.9;
 }
+/* Quote  */
+.quote-section {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+}
+
+.quote-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.quote-icon img {
+  width: 40px;
+  height: 40px;
+  left: 0;
+  top: 4;
+  margin-bottom: 0px;
+  justify-items: left;
+  display: flex;
+}
+
+.quote-text {
+  font-size: 1.rem;
+  font-weight: 300;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-style: normal;
+  text-align: left;
+}
+
+.quote-author {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.quote-role {
+  font-size: 1rem;
+  font-weight: 200;
+  color: #777;
+  text-align: left;
+}
