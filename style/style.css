@@ -426,3 +426,77 @@ body {
 .donate-button:hover {
   background-color: #145c3a;
 }
+/* Newsletter  */
+.newsletter-section {
+  background-color: #b8dfc7; /* Updated greenish background color */
+  padding: 90px 20px; /* Added larger padding for better spacing */
+  text-align: center;
+  border-radius: 20px;
+margin: 20px 160px; 
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.newsletter-container {
+  max-width: 800px; 
+  margin: 0 auto;
+ 
+}
+
+.newsletter-title {
+  font-size: 2.5rem; 
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.newsletter-description {
+  font-size: 1.2rem;
+  color: #555555;
+  line-height: 1.5;
+  margin-bottom: 40px; 
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+  margin-bottom: 30px; 
+}
+
+.newsletter-input {
+  width: 65%; 
+  max-width: 500px;
+  padding: 15px 20px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.newsletter-input::placeholder {
+  color: #999999;
+}
+
+.newsletter-button {
+  background-color: #116530; 
+  color: #ffffff;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-button:hover {
+  background-color: #0c4525;
+}
+
+.newsletter-promise {
+  font-size: 1rem;
+  color: #555555;
+  margin-top: 20px; 
+}
